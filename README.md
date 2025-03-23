@@ -51,8 +51,7 @@ Lazy Coder is a powerful tool designed to help developers by providing syntax su
 - **🔒 Security Enhancements**: Improve scanning accuracy and security.
 
 ## 👨‍💻 Contributors
-- Pruthveesh Gharal
-- [Other Team Members]
+- Vinay Prakash More, Pruthveesh Gharal, Mushahid Raza, Jay Karle
 
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
