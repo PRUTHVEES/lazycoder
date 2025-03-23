@@ -1,0 +1,21 @@
+<?php
+
+class {{ class_name }} {
+    {% for prop in properties %}
+    public ${{ prop }};
+    {% endfor %}
+
+    public function __construct({% for prop in properties %}${{ prop }}{% if not loop.last %}, {% endif %}{% endfor %}) {
+        {% for prop in properties %}
+        $this->{{ prop }} = ${{ prop }};
+        {% endfor %}
+    }
+
+    public function display() {
+        echo "Class {{ class_name }}: ";
+        {% for prop in properties %}
+        echo "{{ prop }} = " . $this->{{ prop }} . " ";
+        {% endfor %}
+    }
+}
+?>
